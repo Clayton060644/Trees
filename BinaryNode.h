@@ -5,6 +5,7 @@ using namespace std;
 
 class BinaryNode {
     BinaryNode();
+    BinaryNode(string val);
     ~BinaryNode();
 
     string value;

@@ -8,6 +8,12 @@ BinaryNode::BinaryNode() {
     right = NULL;
 }
 
+BinaryNode::BinaryNode(string val) {
+    value = val;
+    left = NULL;
+    right = NULL;
+}
+
 BinaryNode::~BinaryNode() {
     delete left;
     delete right;
